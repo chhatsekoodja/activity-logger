@@ -68,10 +68,10 @@ python main.py
 
 ## 🧠 How It Works
 
-**Thread 1:** Listens for keyboard & mouse events using `pynput`
-**Thread 2:** Tracks active window changes
-**Thread 3:** Periodically emails logs using SMTP
-Threads are coordinated via a shared stop flag for clean termination
+* **Thread 1:** Listens for keyboard & mouse events using `pynput`
+* **Thread 2:** Tracks active window changes
+* **Thread 3:** Periodically emails logs using SMTP
+* Threads are coordinated via a shared stop flag for clean termination
 
 
 ## 🔐 Security & Best Practices
